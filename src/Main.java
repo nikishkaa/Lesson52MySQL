@@ -29,7 +29,7 @@ public class Main {
             connection = DriverManager.getConnection(URL, USER, PASSWORD);
 
             Statement statement = connection.createStatement();
-
+            System.out.println(connection.getClass());
 
             ResultSet set = statement.executeQuery(SELECT_ALL_CLASSES);
 
