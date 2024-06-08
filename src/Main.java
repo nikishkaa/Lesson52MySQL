@@ -10,6 +10,7 @@ public class Main {
     public static final String PASSWORD = "11n11n11n";
     public static final String SELECT_ALL_CLASSES = "SELECT * FROM classes";
 
+
     public static void main(String[] args) {
         try {
             Class.forName(DRIVER);
