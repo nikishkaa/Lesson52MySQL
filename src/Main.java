@@ -42,6 +42,7 @@ public class Main {
                 );
             }
 
+
         } catch (SQLException exception) {
             System.out.println(exception);
         } finally {
